@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body,
+main{
+    width: 100%;
+    height: 100%;
+}
+.root{
+    width: 800px;
+    height: 100%;
+    margin: 40px auto;
+  
+    box-sizing:content-box;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.area{
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    font-size: 20px;
+}
+.keyboard{
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+    width: 100%;
+    padding: 3px;
+    height: 50px;
+   
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.key{
+    height: 45px;
+    width: 45px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.key:hover{
+    background-color: teal;
+}
+
+.active{
+    background-color: teal;
+    border-radius: 20px;
+}
+.hidden{
+    display: none;
+}
+.Backspace{
+    width: 80px;
+}
+.CapsLock{
+    width: 80px;
+}
+.Enter{
+    width: 80px;
+}
+.Space{
+    width: 400px
+}
+.ShiftLeft{
+    width: 80px;
+}
+.ShiftRight{
+    width: 87px;
+}
+.title_message{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+.sub_message{
+    height: 50px;
+    width: 100%;
+    text-align: right;
+    line-height: 25px;
+    font-size: 20px;
+}
